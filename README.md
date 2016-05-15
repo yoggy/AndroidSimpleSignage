@@ -1,6 +1,8 @@
 AndroidSimpleSignage
 ====
 
+Google Play URL
+* https://play.google.com/store/apps/details?id=net.sabamiso.android.androidsimplesignage
 
 Copyright and license
 ----
