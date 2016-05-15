@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="http://example.com/"
+        android:enabled="true"
+        android:key="url"
+        android:title="url"
+        android:summary="URL for display on the screen"
+    />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="enable_reload"
+        android:title="enable reload"
+        android:summary="enable reload function">
+    </CheckBoxPreference>
+
+    <EditTextPreference
+        android:defaultValue="180"
+        android:enabled="true"
+        android:key="reload_interval"
+        android:title="reload_interval"
+        android:summary="reload interval time (unit: second)"
+        android:numeric="integer"
+    />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_prevent_touch"
+        android:title="enable prevent touch"
+        android:summary="">
+    </CheckBoxPreference>
+
+</PreferenceScreen>
