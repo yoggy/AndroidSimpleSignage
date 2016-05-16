@@ -118,6 +118,7 @@ public class SignageActivity extends Activity {
     };
 
     protected void doReload() {
+        webView.clearCache(true);
         webView.reload();
     }
 
